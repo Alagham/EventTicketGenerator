@@ -1,0 +1,57 @@
+.typee{
+    width: 158px;
+height: 110px;
+border-width: 1px;
+gap: 8px;
+border-radius: 12px;
+border-radius: 15px;
+padding: 12px;
+font-family: Roboto, sans-serif;
+/* display: flex;
+align-items: start; */
+border: 2px solid #197686;
+
+h4{
+    margin: 2px auto;
+    /* font-family: Roboto; */
+font-weight: 400;
+font-size: 16px;
+/* line-height: 24px; */
+letter-spacing: 0%;
+
+}
+
+}
+.typee:hover{
+    background: #2C545B;
+    border: 1px solid #197686
+}
+.access{
+    width: 138px;
+height: 49px;
+gap: 4px;
+p{
+    margin: 5px;
+}
+
+}
+
+#price{
+    width: 55px;
+height: 26px;
+font-weight: 600;
+font-size: 20px;
+/* line-height: 22px; */
+letter-spacing: 0%;
+margin: 5px 0px;
+
+}
+@media screen and (max-width: 420px) {
+    .typee{
+        width: 255px;
+    }
+    .access{
+        width: 231px;
+        height: 45px;
+    }
+}

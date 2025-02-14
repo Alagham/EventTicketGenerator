@@ -1,0 +1,17 @@
+.progressContainer {
+    border-radius: 5px;
+    margin: 20px 0;
+    overflow: hidden;
+    max-width: 604px;
+height: 4px;
+border-radius: 5px;
+background: rgba(14, 70, 79, 1);
+  }
+  
+  .progress-bar {
+    height: 100%;
+    transition: width 0.4s ease-in-out;
+    background: rgba(36, 160, 181, 1);
+
+  }
+  

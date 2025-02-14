@@ -1,0 +1,167 @@
+.ticketContainer {
+  height: 1025px;
+  width: 700px;
+  padding: 48px;
+  border-radius: 24px;
+  border: 1px solid #0e464f;
+  margin: 0 auto;
+  color: white;
+  font-family: Roboto, sans-serif;
+}
+.ticketbg {
+  background-image: url("../../assets/ticketbg.svg");
+  width: 300px;
+  height: 600px;
+  display: flex;
+  /* flex-direction: column; */
+  /* border: 1px solid; */
+  justify-content: center;
+  /* align-items: center; */
+  margin: 32px auto;
+}
+#ticketTop {
+  /* border: 1px solid; */
+  width: 604px;
+  height: 48px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  h2 {
+    font-family: JejuMyeongjo, Roboto, sans-serif;
+  }
+}
+.barCode{
+  position:relative;
+  top:508px;
+  right:280px;
+    img{
+        width: 250px;
+        height: 68px;
+        border: 1px solid;
+    }
+}
+.ticketDiv {
+  width: 260px;
+  height: 446px;
+  border: 1px solid #24a0b5;
+  padding: 14px;
+  border-radius: 16px;
+  background-color: #031e21;
+  margin: 25px;
+  margin-left: 275px;
+  color: white;
+  font-family: Roboto;
+  /* background-image: url("../../assets/ticketbg.svg"); */
+}
+.booked {
+  height: 81px;
+  width: 604px;
+  /* border: 1px solid papayawhip; */
+  text-align: center;
+
+  h3 {
+    font-family: Alatsi, sans-serif;
+    font-size: 32px;
+    margin: 0px auto;
+  }
+  p {
+    font-family: Roboto, sans-serif;
+    margin: 16px 0px 0px;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+  }
+}
+.deets {
+  width: 175px;
+  height: 76px;
+  margin: 5px auto;
+  text-align: center;
+  /* border: 1px solid yellow; */
+  h3 {
+    font-size: 34px;
+    /* letter-spacing: 0%; */
+    margin: 5px 0px;
+    font-family: Road Rage;
+  }
+  p {
+    font-size: 10px;
+    margin: 2px 0px;
+    font-family: Roboto;
+  }
+}
+#imageUrl {
+  width: 140px;
+  height: 140px;
+  margin: 5px auto;
+  border: 4px solid #24a0b5;
+  border-radius: 12px;
+  display: block;
+}
+.ticketInfo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  border: 1px solid;
+  border-radius: 8px;
+  height: 160px;
+  width: 232px;
+  padding: 4px;
+  background-color: #08343c;
+  border: 1px solid #133d44;
+  div {
+    height: 50px;
+    width: 108px;
+    /* border: 1px solid fuchsia; */
+    padding: 5px;
+    margin: 0px;
+  }
+  p {
+    margin: 3px 0px;
+    font-size: 10px;
+    color: #5a777c;
+  }
+  h4 {
+    margin: 0;
+    font-size: 12px;
+    max-width: 93px;
+    /* border: 1px solid indianred; */
+  }
+}
+.ticketInfo div:nth-child(1) {
+  border-right: 1px solid #12464e;
+  border-bottom: 1px solid #12464e;
+}
+.ticketInfo div:nth-child(2) {
+  /* border-right: 1px  solid; */
+  border-bottom: 1px solid #12464e;
+}
+.ticketInfo div:nth-child(3) {
+  height: 42px;
+
+  border-right: 1px solid #12464e;
+}
+.ticketInfo div:nth-child(4) {
+  height: 42px;
+}
+.ticketInfo div:nth-child(5) {
+  height: 65px;
+  width: 224px;
+  border-top: 1px solid #12464e;
+}
+#bookBtn {
+  width: 290px;
+  border: 1px solid rgba(36, 160, 181, 1);
+  background-color: inherit;
+  color: #24a0b5;
+}
+#downloadBtn {
+    width: 290px;
+    background: rgba(36, 160, 181, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+}

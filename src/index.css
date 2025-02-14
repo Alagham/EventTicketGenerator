@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Jeju+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alatsi&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(0deg, #02191d, #02191d),
+    radial-gradient(
+      52.52% 32.71% at 50% 97.66%,
+      rgba(36, 160, 181, 0.2) 0%,
+      rgba(36, 160, 181, 0) 100%
+    );
+    /* max-width: 1440px;
+max-height: 1126px; */
+gap: 80px;
+top: 34px;
+/* padding-top: 112px;
+padding-bottom: 112px; */
+background: linear-gradient(0deg, #02191D, #02191D),
+radial-gradient(52.52% 32.71% at 50% 97.66%, rgba(36, 160, 181, 0.2) 0%, rgba(36, 160, 181, 0) 100%);
+
+}

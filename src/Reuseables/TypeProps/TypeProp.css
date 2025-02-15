@@ -7,16 +7,12 @@ border-radius: 12px;
 border-radius: 15px;
 padding: 12px;
 font-family: Roboto, sans-serif;
-/* display: flex;
-align-items: start; */
 border: 2px solid #197686;
 
 h4{
     margin: 2px auto;
-    /* font-family: Roboto; */
 font-weight: 400;
 font-size: 16px;
-/* line-height: 24px; */
 letter-spacing: 0%;
 
 }
@@ -41,7 +37,6 @@ p{
 height: 26px;
 font-weight: 600;
 font-size: 20px;
-/* line-height: 22px; */
 letter-spacing: 0%;
 margin: 5px 0px;
 

@@ -86,7 +86,7 @@ const DetailsForm = ({ goBack, goNext }) => {
             </label>
           </div>
         </div>
-        <hr />
+        <hr className="border" />
         <label htmlFor="yourname">Enter your name*</label> <br />
         <input
           name="yourname"
